@@ -1095,6 +1095,9 @@ body {
   .header .header-wrapper .header__nav-cart .header-phone-cart .header-cart-btn {
     margin-left: 0;
   }
+  .header .header-wrapper .header__nav-cart .header-cart {
+    width: 350px;
+  }
   .banner {
     flex-direction: column;
   }
@@ -1279,5 +1282,22 @@ body {
   .delivery-block__item .delivery-block__item-text .delivery-block__item-text-payments .delivery-block__item-text-payment + .delivery-block__item-text-payment {
     margin-left: 0;
     margin-top: 15px;
+  }
+  .single-product__wrapper {
+    flex-direction: column;
+  }
+  .single-product__wrapper .single-product__img {
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+  }
+  .single-product__wrapper .single-product__text {
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+    height: 520px;
+  }
+  .single-product__wrapper .single-product__text .single-product__text-bottom-quantity-shop .single-product__text-bottom-shop {
+    width: 142px;
   }
 }/*# sourceMappingURL=style.css.map */
